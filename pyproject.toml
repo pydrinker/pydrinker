@@ -36,6 +36,9 @@ classifiers = [
     "Topic :: System :: Distributed Computing",
     "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
 ]
+packages = [
+    {include = "pydrinker"}
+]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.10"

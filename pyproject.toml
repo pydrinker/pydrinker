@@ -1,3 +1,19 @@
+[tool.black]
+line-length = 110
+target-version = ["py37"]
+
+[tool.isort]
+line_length = 110
+multi_line_output = 3
+known_localfolder = ["pydrinker", "tests"]
+sections = ["FUTURE", "STDLIB", "THIRDPARTY", "LOCALFOLDER"]
+default_section = "THIRDPARTY"
+include_trailing_comma = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-vv --cov=pydrinker --cov-report=term-missing"
+
 [tool.poetry]
 name = "pydrinker"
 version = "0.1.0"
@@ -7,7 +23,19 @@ keywords = ["pub-sub", "queue", "consumer", "message-broker"]
 readme = "README.md"
 license = "LGPLv3"
 include = ["LICENSE"]
+homepage = "https://github.com/rafaelhenrique/pydrinker"
 repository = "https://github.com/rafaelhenrique/pydrinker"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: System :: Distributed Computing",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.10"

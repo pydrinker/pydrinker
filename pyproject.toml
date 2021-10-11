@@ -16,7 +16,7 @@ addopts = "-vv --cov=pydrinker --cov-report=term-missing"
 
 [tool.poetry]
 name = "pydrinker"
-version = "0.1.0"
+version = "1.0.0-beta.0"
 description = "The most amazing lib to drink (consume) message from your queue provider of preference"
 authors = ["Rafael Henrique da Silva Correia <rafael@abraseucodigo.com.br>"]
 keywords = ["pub-sub", "queue", "consumer", "message-broker"]

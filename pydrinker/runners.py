@@ -1,4 +1,6 @@
-from loafer.runners import LoaferRunner
+from loafer.runners import LoaferRunner, logger
+
+logger.name = __name__
 
 
 class DrinkerRunner(LoaferRunner):

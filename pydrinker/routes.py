@@ -1,7 +1,10 @@
 from loafer.routes import Route as LoaferRoute
+from loafer.routes import logger
 
 from .message_translators import AbstractMessageTranslator
 from .providers import AbstractProvider
+
+logger.name = __name__
 
 
 class DrinkerRoute(LoaferRoute):

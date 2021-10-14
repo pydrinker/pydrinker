@@ -1,10 +1,12 @@
 from cached_property import cached_property
-from loafer.managers import LoaferManager
+from loafer.managers import LoaferManager, logger
 
 from .dispatchers import DrinkerDispatcher
 from .exceptions import ConfigurationError
 from .routes import DrinkerRoute
 from .runners import DrinkerRunner
+
+logger.name = __name__
 
 
 class DrinkerManager(LoaferManager):

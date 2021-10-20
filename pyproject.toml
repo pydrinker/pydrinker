@@ -21,7 +21,7 @@ secondary = true
 
 [tool.poetry]
 name = "pydrinker"
-version = "1.0.0-beta.3"
+version = "1.0.0"
 description = "The most amazing lib to drink (consume) message from your queue provider of preference"
 authors = ["Rafael Henrique da Silva Correia <rafael@abraseucodigo.com.br>"]
 keywords = ["pub-sub", "queue", "consumer", "message-broker"]
@@ -31,7 +31,7 @@ include = ["LICENSE"]
 homepage = "https://github.com/rafaelhenrique/pydrinker"
 repository = "https://github.com/rafaelhenrique/pydrinker"
 classifiers = [
-    "Development Status :: 4 - Beta",
+    "Development Status :: 5 - Production/Stable",
     "Environment :: Console",
     "Intended Audience :: Developers",
     "Natural Language :: English",

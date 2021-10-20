@@ -1,4 +1,7 @@
 # pydrinker
+
+![build on github actions](https://github.com/pydrinker/pydrinker/actions/workflows/test.yml/badge.svg?branch=main)
+
 The most amazing lib to drink (consume) message from your queue provider of preference.
 
 # Credits

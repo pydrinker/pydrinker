@@ -27,11 +27,13 @@ build:
 	@poetry build
 
 test-release: clean build config-repositories ## Release package to Test PyPI
+	@grep -o "^### `poetry version -s`.*" CHANGES.md || echo "You need declare CHANGES.md first!" && exit 1
 	@git tag `poetry version -s`
 	@git push origin `poetry version -s`
 	@poetry publish -r testpypi
 
 stable-release: clean build config-repositories ## Release package to PyPI
+	@grep -o "^### `poetry version -s`.*" CHANGES.md || echo "You need declare CHANGES.md first!" && exit 1
 	@git tag `poetry version -s`
 	@git push origin `poetry version -s`
 	@poetry publish -r pypi

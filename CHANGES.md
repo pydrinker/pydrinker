@@ -1,3 +1,7 @@
+### 1.0.1 (2021-10-20)
+
+* Use a stable version of pydrinker-gcp
+
 ### 1.0.0 (2021-10-20)
 
 * First release of pydrinker

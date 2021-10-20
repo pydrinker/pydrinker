@@ -2,12 +2,6 @@
 
 ![build on github actions](https://github.com/pydrinker/pydrinker/actions/workflows/test.yml/badge.svg?branch=main)
 
-The most amazing lib to drink (consume) message from your queue provider of preference.
+This is a abstraction layer between [pydrinker-loafer](https://github.com/pydrinker/pydrinker-loafer) and all pydrinker libs, this project makes possible change thinks of original [olist-loafer](https://github.com/olist/olist-loafer) project, the future of this project is switch all core structure to here and remove pydrinker-loafer;
 
-# Credits
-
-All contributors of [loafer](https://github.com/georgeyk/loafer) project and [olist-loafer](https://github.com/olist/olist-loafer) project deserve a lot of credit, because without them this project/idea would not exist. Thanks for that!
-
----
-
-Calm down your fingers! This project is under construction... wait for scenes from the next chapters :smile:
+To understand more about pydrinker see [org page](https://github.com/pydrinker).

@@ -286,7 +286,7 @@ pyasn1 = ">=0.4.6,<0.5.0"
 
 [[package]]
 name = "pydrinker-gcp"
-version = "1.0.0b0"
+version = "1.0.0b1"
 description = "Google Cloud Platform 'plugin' for pydrinker"
 category = "main"
 optional = true
@@ -294,7 +294,7 @@ python-versions = ">=3.9,<3.10"
 
 [package.dependencies]
 google-cloud-pubsub = ">=2.8.0,<3.0.0"
-pydrinker = ">=1.0.0-beta.1,<2.0.0"
+pydrinker = ">=1.0.0-beta.3,<2.0.0"
 
 [package.source]
 type = "legacy"
@@ -303,19 +303,14 @@ reference = "testpypi"
 
 [[package]]
 name = "pydrinker-loafer"
-version = "1.0.0b0"
+version = "1.0.0"
 description = "Asynchronous message dispatcher for concurrent tasks processing"
 category = "main"
 optional = false
 python-versions = ">=3.7,<3.10"
 
 [package.dependencies]
-cached-property = ">=1.3.0,<2.0.0"
-
-[package.source]
-type = "legacy"
-url = "https://test.pypi.org/simple"
-reference = "testpypi"
+cached-property = ">=1.5.2,<2.0.0"
 
 [[package]]
 name = "pyparsing"
@@ -475,7 +470,7 @@ gcp = ["pydrinker-gcp"]
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.9,<3.10"
-content-hash = "67e13127110c0edb31e3f0cef1ca008335645528d5e21316a439cf5f0ddf26bf"
+content-hash = "8df20f225e8ee703e50dedf93d9208b9ecce41d779d131357a2384451dfc6fe7"
 
 [metadata.files]
 atomicwrites = [
@@ -690,12 +685,12 @@ pyasn1-modules = [
     {file = "pyasn1_modules-0.2.8-py3.7.egg", hash = "sha256:c29a5e5cc7a3f05926aff34e097e84f8589cd790ce0ed41b67aed6857b26aafd"},
 ]
 pydrinker-gcp = [
-    {file = "pydrinker-gcp-1.0.0b0.tar.gz", hash = "sha256:9b7c26d27a8bebfe90e214bc0f3f80dd148dbc372ccf260a2cc25cf048dd7c1b"},
-    {file = "pydrinker_gcp-1.0.0b0-py3-none-any.whl", hash = "sha256:11fe62f2380a0cc197c0293c068746fd67daaec0fc59ebe90bf8e70f5826ffd3"},
+    {file = "pydrinker-gcp-1.0.0b1.tar.gz", hash = "sha256:6a70902073fb05707535cea7e2bc10f459105e17ba2d307b5eb6e4cdc4abe8cd"},
+    {file = "pydrinker_gcp-1.0.0b1-py3-none-any.whl", hash = "sha256:638607f151063c842e77e90aba73d9bd9c496e26537a509cc39a61d882307cf7"},
 ]
 pydrinker-loafer = [
-    {file = "pydrinker-loafer-1.0.0b0.tar.gz", hash = "sha256:f7c2197e23d6a5a5af26dd1799d6156e78cf88955f8ce3a5ddb6f10105de6e5a"},
-    {file = "pydrinker_loafer-1.0.0b0-py3-none-any.whl", hash = "sha256:b0ddf221f2681e33132caf87953c405cfeb7a8807dfba6879e95d4cc22542054"},
+    {file = "pydrinker-loafer-1.0.0.tar.gz", hash = "sha256:f62021824414eb7c6ab08f5e23e1712abee4300f9b7d8fb4624a7d1e57eaad97"},
+    {file = "pydrinker_loafer-1.0.0-py3-none-any.whl", hash = "sha256:13dd11fef081d56a5e7c9a516eab170ec6f539602276b13a9bb48f053c73931c"},
 ]
 pyparsing = [
     {file = "pyparsing-2.4.7-py2.py3-none-any.whl", hash = "sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b"},

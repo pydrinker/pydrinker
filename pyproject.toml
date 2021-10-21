@@ -45,8 +45,8 @@ gcp = ["pydrinker-gcp"]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.10"
-pydrinker-loafer = "^1.0.0"
-pydrinker-gcp = { version = "^1.0.0", optional = true }
+pydrinker-loafer = "^1.0.1"
+pydrinker-gcp = { version = "^1.0.2", optional = true }
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"

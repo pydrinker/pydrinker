@@ -1,3 +1,7 @@
+### 1.0.2 (2021-10-20)
+
+* Update pydrinker-gcp and pydrinker-loafer
+
 ### 1.0.1 (2021-10-20)
 
 * Use a stable version of pydrinker-gcp
